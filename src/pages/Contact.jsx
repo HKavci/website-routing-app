@@ -21,7 +21,7 @@ const Contact = () => {
             <p className="card-text">
               Organize Sanayi Bölgesi D:16 Blok No:27/2 <br /> Nazilli / Aydın
             </p>
-            <h5>444 1 444</h5>
+            <h5>(0256) 444 1 444</h5>
           </div>
         </div>
         <form
@@ -41,7 +41,7 @@ const Contact = () => {
           </div>
           <div className="mb-3">
             <label htmlFor="exampleInputEmail1" className="form-label">
-              Email Adresi:
+              E-posta Adresi:
             </label>
             <input
               type="email"
@@ -59,7 +59,7 @@ const Contact = () => {
               type="number"
               className="form-control"
               id="exampleInputTel"
-              placeholder="0(....)"
+              placeholder="0(...)....."
               pattern="[0-9]{4}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
               maxLength="11"
             />
@@ -88,23 +88,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-{
-  /* <div className="d-flex gap-3 justify-content-center mt-5 text-danger ">
-                  <h1>BİZİ ARAYIN</h1>
-                  <FiPhoneCall className="call-icon mt-2" />
-                  <h1>444 1 444</h1>
-                </div>
-                <div>
-                  <div className="d-flex mb-5 p-5">
-                    <div className="container mt-5 pt-3 px-2 shadow-lg border rounded" style={{ maxWidth: "21rem" }}>
-                      <img src={Logo} alt="kartvizit-img" className="kartvizit px-1" />
-                      <div className="mt-5">
-                        <h5>İşyeri Adresimiz:</h5>
-                        <p>
-                          Organize Sanayi Bölgesi D:16 Blok No:27/2 <br /> Nazilli / Aydın
-                          Tel: 444 1 444
-                        </p>
-                      </div>
-                    </div> */
-}

@@ -41,13 +41,6 @@
 }
 
 
-/* .footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-} */
-
 .footer-icon {
     width: 4rem;
     height: 4.5rem;
@@ -85,4 +78,10 @@
     .about-body {
         height: 100vh !important;
     }
+}
+
+.hizmetlerimiz {
+    position: fixed;
+    top: 5rem;
+    right: 2rem;
 }
