@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-body-tertiary fs-5 navbar-dark bg-dark border border-warning">
       <div className="container-fluid ">
         <NavLink className="navbar-brand fs-3 fw-semibold ms-4" to="/">
-          NAZENİN <span className='text-warning'>Temizlik Hizmetleri</span>
+          NAZENİN <span className='text-warning'>Temizlik</span>
         </NavLink>
         <button
           className="navbar-toggler"
