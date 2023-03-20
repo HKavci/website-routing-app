@@ -22,6 +22,11 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+
 .about-body {
     background-image: url("./assets/img/Seat_Washing-2.jpg");
     background-size: cover;

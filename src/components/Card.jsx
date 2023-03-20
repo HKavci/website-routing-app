@@ -1,15 +1,24 @@
 import SeatWashing from "../assets/img/Seat_Washing-2.jpg";
 import CarSeatWashing from "../assets/img/Car_Seat_Washing.jpg";
 import BedWashing from "../assets/img/Bed_Washing.jpg";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 const Card = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   return (
     <div className="card-group text-center">
-      <div className="card" role="button" onClick={()=>navigate("/armchair")} id="armchair">
-        <img src={SeatWashing} className="card-img-top mx-auto mt-3 rounded" alt="Seat-washing" />
+      <div
+        className="card"
+        role="button"
+        onClick={() => navigate("/armchair")}
+        id="armchair"
+      >
+        <img
+          src={SeatWashing}
+          className="card-img-top mx-auto mt-3 rounded"
+          alt="Seat-washing"
+        />
         <div className="card-body">
           <h5 className="card-title">Koltuk Yıkama</h5>
           <p className="card-text">
@@ -22,7 +31,12 @@ const Card = () => {
           </p>
         </div>
       </div>
-      <div className="card" role="button" onClick={()=>navigate("/carseat")} id="carseat">
+      <div
+        className="card"
+        role="button"
+        onClick={() => navigate("/carseat")}
+        id="carseat"
+      >
         <img
           src={CarSeatWashing}
           className="card-img-top mx-auto mt-3 rounded"
@@ -40,8 +54,17 @@ const Card = () => {
           </p>
         </div>
       </div>
-      <div className="card" role="button" onClick={()=>navigate("/bed")} id="bed">
-        <img src={BedWashing} className="card-img-top mx-auto mt-3 rounded" alt="BedWashing" />
+      <div
+        className="card"
+        role="button"
+        onClick={() => navigate("/bed")}
+        id="bed"
+      >
+        <img
+          src={BedWashing}
+          className="card-img-top mx-auto mt-3 rounded"
+          alt="BedWashing"
+        />
         <div className="card-body">
           <h5 className="card-title">Yatak Yıkama</h5>
           <p className="card-text">
